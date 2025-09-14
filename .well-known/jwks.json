@@ -1,13 +1,15 @@
-{
+ {
   "keys": [
     {
       "kty": "RSA",
       "alg": "RS256",
       "use": "sig",
-      "key_ops": ["verify"],
+      "key_ops": [
+        "verify"
+      ],
       "ext": true,
       "e": "AQAB",
-      "n": "vjwDoj0jdLWLrmdazIlwlQpl-lMTGk6HQEgRQzmfIO54m6sRojyaeI7se7Y-kPzTsylkd8Fe0GOAtJDNbVJGTqxSVE-LLZA7i6qXdJgoELak7JOwY1L_4lJh4tmBsKajCRVG1Nle8M_q10QhEJO7TQCOR-jmitLQW2QTlsmfP4r-E8vqchSriMTpYgIBSq6FbLLBiYUzzF4wd7-pT5rlh-RUxmwaOMCfdVDVL79UMIz7FBZUqm2LGf9B9XOSjS_6_bCmPcubXlO42NPzIByaSnGUutqiu-qChfjR9d668zQxcai1H6Ey9jm-RiEU3npOJxvC6N5ddhW2VijWwl6XWQ",
+      "n": "pgy6JVzkRdYqW7CDwLEgAiPw_oNkVhbKLIDbWumU_i9JA5oE5nA3xr5zVFh89AUNQRl_K-aWmysNLUNqNxURLTl5P8dAqlpU8MX_KlsFT-QFPBd0KkQDXaSdR4QiafFQK09UcSoLQHK7s8LGP85WP6xZsNGme2Zytu-nUpNZzFLnHRVatJLBe-PWeD-t7W7pSisZjeh_PGKrKWvtQKv1gtK8UvsVa7ApgdN6NHixSYwTxyaCJQmGwg4v5VfJsS1mSQASiPs7nQmftG3xUjucyuOD7_QnQYsgVSoZKTKmvkm_nvK0OvnUe4uhpUFt5qf08ZP8WC9ZM8kxheHV-03LOw",
       "kid": "commander-ctf"
     }
   ]
