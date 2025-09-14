@@ -1,12 +1,16 @@
 {
   "keys": [
     {
-      "kty": "RSA",
       "alg": "RS256",
-      "use": "sig",
       "e": "AQAB",
+      "ext": true,
+      "key_ops": [
+        "verify"
+      ],
+      "kty": "RSA",
       "n": "v45GZxwUFpWBOQwygn9TaVtY9Nm2zoK32jX0Fm45uMOKmhtCzTEZQuYbS-682F9ZXbzTOh2-WOI8xALKcx208wFSCNdNfHXGFEXadFkq7erlPNXyyudpP_IBUWPefQHE3cXEi1TsF9v8_11R8Efk2q7vO4UCQI46UpUZ0EQCqrKRnmvMfVEAWr00-TBrXVlVRlVJnU9B4T3W1hl0XAmEdgjBjFpnP6vRqUn7YGg7meQjal8mNaoq2ZpJxIBWbhhsqSuPd6-yw0IxxwDUseI4vB8fiaep43dlWqPv1bjKcR-bZMzmIQCWQYMBIzaTeulMHTcKpyvrAQi3RPz2wQE7jw",
-      "kid": "commander-ctf"
+      "kid": "commander-ctf",
+      "use": "sig"
     }
   ]
 }
