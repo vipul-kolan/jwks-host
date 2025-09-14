@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "alg": "RS256",
+      "use": "sig",
+      "e": "AQAB",
+      "n": "…YOUR n VALUE…",
+      "kid": "commander-ctf"
+    }
+  ]
+}
